@@ -1,0 +1,21 @@
+{
+    "name": "pqrs-system",
+    "version": "1.0.0",
+    "description": "PQRSSI System in Node.js",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.45.4",
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.20.2",
+        "ejs": "^3.1.10",
+        "express": "^4.21.0",
+        "express-session": "^1.18.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.9.7",
+        "path": "^0.12.7",
+        "pg": "^8.13.0"
+    }
+}
